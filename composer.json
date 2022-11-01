@@ -1,0 +1,17 @@
+{
+  "require": {
+    "ext-mysqli": "*",
+    "ext-simplexml": "*"
+  },
+  "extra": {
+    "laravel": {
+      "dont-discover": [
+        "barryvdh/laravel-ide-helper"
+      ]
+    }
+  },
+  "require-dev": {
+    "barryvdh/laravel-debugbar": "^3.7",
+    "symfony/var-dumper": "^6.1"
+  }
+}
